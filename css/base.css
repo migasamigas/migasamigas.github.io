@@ -1,16 +1,18 @@
 header {
+    padding: 10px;
+
     
 }
 nav {
     /*float: left ;*/
-    
+    padding: 13px;
 
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 
 article {
-    
+    padding: 10px;
     
 }
 
@@ -20,7 +22,7 @@ section {
 }
 
 footer {
-    
+    padding: 10px;
     clear: both; 
     border-top: 1px solid black;
 }
