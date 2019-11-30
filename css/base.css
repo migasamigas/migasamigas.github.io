@@ -1,24 +1,16 @@
-h1 {
-  letter-spacing: 1em;
-}
-h3 {
-  letter-spacing: 0.5em;
-}
 header {
-    padding: 10px;
-
     
 }
 nav {
     /*float: left ;*/
-    padding: 13px;
+    
 
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 
 article {
-    padding: 10px;
+    
     
 }
 
@@ -28,7 +20,7 @@ section {
 }
 
 footer {
-    padding: 10px;
+    
     clear: both; 
     border-top: 1px solid black;
 }
@@ -55,7 +47,6 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    letter-spacing: 0.1em;
   }
   li a:hover {
     background-color: #555;
@@ -74,7 +65,7 @@ ul {
   }
 
   p {
-    letter-spacing: 0.1em;
+    
     padding: 10px;
   }
 
