@@ -55,6 +55,7 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    letter-spacing: 0.1em;
   }
   li a:hover {
     background-color: #555;
