@@ -1,30 +1,25 @@
 header {
-    padding: 10px;
-
-    
+    padding: 0.625em;
 }
-nav {
-    /*float: left ;*/
-    padding: 13px;
 
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+nav { /*float: left ;*/
+    padding: 0.8125em;
+    border-top: 0.0625em solid black;
+    border-bottom: 0.0625em solid black;
 }
 
 article {
-    padding: 10px;
-    
+    padding: 0.625em;
 }
 
 section {
-    
-    border: 1px solid grey;
+    border: 0.0625em solid grey;
 }
 
 footer {
-    padding: 10px;
-    clear: both; 
-    border-top: 1px solid black;
+    padding: 0.625em;
+    clear: both;
+    border-top: 0.0625em solid black;
 }
 
 #contenedor {
@@ -36,115 +31,132 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
-  
-  li {
-    display: inline;
-    
-  }
+}
 
-  li a {
-   
+li {
+    display: inline;
+}
+
+li a {
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.875em 1em;
     text-decoration: none;
-  }
-  li a:hover {
+}
+
+li a:hover {
     background-color: #555;
     color: white;
-  }
+}
 
-  .im {
-    padding: 10px;
+.im {
+    padding: 0.625em;
     float: left;
     width: 300px;
-  }
-  .im2 {
-    padding: 10px;
+}
+
+.im2 {
+    padding: 0.625em;
     float: right;
     width: 300px;
-  }
+}
 
-  p {
-    
-    padding: 10px;
-  }
+p {
+    padding: 0.625em;
+}
 
-
-  div.gallery {
-    margin: 5px;
-    
+div.gallery {
+    margin: 0.3125em;
     float: left;
     width: 180px;
-  }
-  
-  div.gallery img {
+}
+
+div.gallery img {
     width: 100%;
     height: auto;
-  }
-  
-  div.desc {
-    padding: 10px;
+}
+
+div.desc {
+    padding: 0.625em;
     text-align: center;
-    background-color: bisque; ;
-  }
+    background-color: bisque;;
+}
 
-  th, td {
-    border: 1px solid #ddd;
-  }
+th, td {
+    border: 0.0625em solid #ddd;
+}
 
-  .ingredientes{
-    clear: both; 
-    padding: 10px;
-    
-  }
+.ingredientes {
+    clear: both;
+    padding: 0.625em;
+}
 
-  .parrafos{
+.parrafos {
     background: #ffe5e5;
-  }
+    border-radius: 6.25em 0.9375em 6.25em 0.9375em;
+}
 
-  .logo{
-    float:left;
-    width:130px;
-  }
+.logo {
+    float: left;
+    width: 8.125em;
+}
 
-  .parrafos2 {
-    background: rgb(135, 212, 135);
-  }
+.parrafos2 {
+    background: rgba(116, 219, 68, 0.14);
+    border-radius: 6.25em 0.9375em 6.25em 0.9375em;
+}
 
-  .parrafos3 {
-    background: rgb(177, 206, 223);
-  }
-  input[type=text], select {
+.parrafos3 {
+    background: rgba(134, 163, 219, 0.32);
+    border-radius: 6.25em 0.9375em 6.25em 0.9375em;
+}
+
+input[type=text], select {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 0.75em 1.25em;
+    margin: 0.5em 0;
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 0.0625em solid #ccc;
+    border-radius: 0.25em;
     box-sizing: border-box;
-  }
-  
-  input[type=submit] {
+}
+
+input[type=submit] {
     width: 100%;
     background-color: #4CAF50;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 0.875em 1.25em;
+    margin: 0.5em 0;
     border: none;
-    border-radius: 4px;
+    border-radius: 0.25em;
     cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     background-color: #45a049;
-  }
-  
-  .low {
+}
+
+.low {
     margin: 0 auto;
-    width:50%;
-    border-radius: 5px;
+    width: 50%;
+    border-radius: 0.3125em;
     background-color: #f2f2f2;
-    padding: 20px;
-  }
+    padding: 1.25em;
+}
+
+h1 ,h2 {
+    text-align: center;
+
+}
+h1{
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.15);
+}
+.citas {
+    background: rgba(134, 163, 219, 0.32);
+    border-radius: 0.9375em 6.25em 0.9375em 0.625em;
+    width: 45em;
+}
+.nombres {
+    background: rgba(219, 21, 190, 0.1);
+
+}
